@@ -1,0 +1,205 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "crazy cricket",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlayIntent",
+                    "slots": [
+                        {
+                            "name": "play",
+                            "type": "play"
+                        }
+                    ],
+                    "samples": [
+                        "continue {play}",
+                        "continue",
+                        "begin {play}",
+                        "lets {play}"
+                    ]
+                },
+                {
+                    "name": "ScoreIntent",
+                    "slots": [
+                        {
+                            "name": "score",
+                            "type": "score"
+                        }
+                    ],
+                    "samples": [
+                        "what is high {score}",
+                        "tell me high {score}",
+                        "tell me {score}",
+                        "best {score}",
+                        "high {score}"
+                    ]
+                },
+                {
+                    "name": "StartGameIntent",
+                    "slots": [
+                        {
+                            "name": "bat",
+                            "type": "bat"
+                        }
+                    ],
+                    "samples": [
+                        "{bat}"
+                    ]
+                },
+                {
+                    "name": "TargetsIntent",
+                    "slots": [
+                        {
+                            "name": "targets",
+                            "type": "targets"
+                        }
+                    ],
+                    "samples": [
+                        "check {targets}",
+                        "okay {targets}",
+                        "tell me {targets}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "bat",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "play",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "play"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "playing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "start"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "score",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "score"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "points"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "runs"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "run"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "targets",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "list"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "target"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mission"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
